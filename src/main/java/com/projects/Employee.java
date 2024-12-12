@@ -1,5 +1,10 @@
 package com.projects;
 
-public class Employee {
+import lombok.Data;
 
+@Data
+public class Employee {
+    private String name;
+    private String phone;
+    private String gmail;
 }
